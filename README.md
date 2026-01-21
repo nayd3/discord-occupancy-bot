@@ -1,4 +1,4 @@
-nayd3 Arcade Occupancy Bot
+"Arcade" Style Occupancy Bot
 A lightweight Python-based Discord bot designed for arcade cabinets and gaming setups. It monitors specific voice channels and dynamically updates their names to reflect "Active" or "Pending" status using a retro hardware aesthetic.
 
 Features:
