@@ -7,6 +7,7 @@ services:
     environment:
       - DISCORD_TOKEN=your_token_here
       - P1_CHANNEL_ID=your_channel_id_here
+      - P2_CHANNEL_ID=your_channel_id_here
     volumes:
       - /path/to/your/code:/app
     working_dir: /app
