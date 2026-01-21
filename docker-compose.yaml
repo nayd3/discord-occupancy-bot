@@ -5,7 +5,7 @@ services:
     container_name: arcade-occupancy-bot
     restart: always
     environment:
-      - DISCORD_TOKEN=your_token_here
+      - DISCORD_TOKEN=your_bot_token_here
       - P1_CHANNEL_ID=your_channel_id_here
       - P2_CHANNEL_ID=your_channel_id_here
     volumes:
