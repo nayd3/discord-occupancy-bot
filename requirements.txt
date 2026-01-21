@@ -1,0 +1,16 @@
+Software Requirements:
+Python 3.8+: The base language.
+discord.py 2.0+: The API wrapper used for the handshake and events.
+
+Docker & Docker Compose:
+For hosting the service containerized.
+
+Discord Developer Portal Requirements:
+Bot Token: Generated from the portal.
+
+Privileged Gateway Intents:
+Server Members Intent (To count people in the channel).
+Voice State Intent (To trigger when someone joins/leaves).
+Message Content Intent (To respond to the !status command).
+
+Permissions: The bot needs Manage Channels, Read Messages, and Send Messages permissions.
