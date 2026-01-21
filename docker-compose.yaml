@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  arcade-bot:
+    image: python:3.9-slim
+    container_name: arcade-occupancy-bot
+    restart: always
+    environment:
+      - DISCORD_TOKEN=your_token_here
+      - P1_CHANNEL_ID=your_channel_id_here
+    volumes:
+      - /path/to/your/code:/app
+    working_dir: /app
+    command: >
+      sh -c "pip install discord.py && python main.py"
